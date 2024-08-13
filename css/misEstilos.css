@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+nav ul li button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.intro p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.commitment {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.commitment h2 {
+    margin-bottom: 1rem;
+}
+
+.specialties {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.specialty {
+    text-align: center;
+    margin: 1rem;
+}
+
+.specialty img {
+    width: 80px;
+    height: 80px;
+}
+
+.specialty h3 {
+    margin-top: 0.5rem;
+}
+
+.about-us {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-us h2 {
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    margin-bottom: 1rem;
+}
+
+.about-us img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.why-visit {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.why-visit h2 {
+    margin-bottom: 1rem;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reason {
+    text-align: center;
+    margin: 1rem;
+    max-width: 300px;
+}
+
+.reason img {
+    width: 50px;
+    height: 50px;
+}
+
+.reason h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer form label {
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+footer form input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+footer form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #ddd;
+}
+.thank-you {
+    text-align: center;
+    margin-top: 2rem;
+}
